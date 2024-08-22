@@ -1,3 +1,4 @@
+import Header from './Header'
 import './Main.css'
 import React from 'react'
 
