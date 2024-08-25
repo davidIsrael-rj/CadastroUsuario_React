@@ -10,9 +10,14 @@ import Footer from '../components/template/Footer'
 
 export default props =>
     <div className="app">
-        <Logo/>
-        <Nav/>
+        <Logo />
+        <Nav />
         <Main icon="home" title="Início"
-            subtitle="Projeto Cadastro de Produtos React"/>
-        <Footer/>
+            subtitle="Projeto Cadastro de Produtos React">
+                <div className="display-4">Bem Vindo!</div>
+                <hr />
+                <p className="mb-0">Sistema para exemplificar a contrução de um cadastro 
+                    desenvolvido em React</p>
+        </Main>
+        <Footer />
     </div>
