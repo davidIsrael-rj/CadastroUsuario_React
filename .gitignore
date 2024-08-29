@@ -3,6 +3,7 @@
 # dependencies
 /backend/node_modules
 /backend/db.json
+backend/db.json
 /frontend/node_modules
 /frontend/.gitignore
 /node_modules
